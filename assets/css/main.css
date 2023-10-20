@@ -60,7 +60,7 @@ header .container {
   max-width: 1200px;
   position: relative;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 40%;
   left: 50%;
   overflow: hidden;
   flex-wrap: wrap;
