@@ -79,22 +79,6 @@ header .container .powerful_content p {
   font-size: 24px;
   font-weight: 500;
 }
-header .container .powerful_content button {
-  width: 200px;
-  height: 70px;
-  font-size: 15px;
-  background: none;
-  outline: none;
-  border: 8px solid lightblue;
-  background-color: #9195ff;
-  color: white;
-  border-radius: 35px;
-  margin-top: 50px;
-  cursor: pointer;
-}
-header .container .powerful_content button:hover {
-  background-color: #6610f2;
-}
 
 @media screen and (max-width: 652px) {
   header nav ul {
@@ -117,4 +101,83 @@ header .container .powerful_content button:hover {
   header .container .powerful_content {
     text-align: center;
   }
+}
+#discoverTheFeatures {
+  display: flex;
+  justify-content: center;
+}
+#discoverTheFeatures .container {
+  text-align: center;
+}
+#discoverTheFeatures .container .discoverTheFeatures_header p {
+  color: #7c8d93;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0 10px;
+}
+#discoverTheFeatures .container .discoverTheFeatures_header h2 {
+  font-size: 48px;
+  color: #0b1033;
+  font-weight: 500;
+}
+#discoverTheFeatures .discoverTheFeatures_cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card {
+  width: 360px;
+  height: 400px;
+  padding: 70px;
+  padding: 20px 40px 0;
+  margin-top: 60px;
+  transition: 0.3s;
+  margin: 60px 30px 0;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card .content {
+  width: 250px;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card .content h3 {
+  font-size: 24px;
+  color: #0b1033;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card .content p {
+  color: #7c8d93;
+  font-size: 15px;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card h3 {
+  padding: 30px;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card .button {
+  margin: 50px auto;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card .button button {
+  margin: 0 auto;
+  display: none;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card:hover button {
+  display: block;
+}
+#discoverTheFeatures .discoverTheFeatures_cards .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  font-size: 15px;
+  background: none;
+  outline: none;
+  border: 8px solid lightblue;
+  background-color: #9195ff;
+  color: white;
+  border-radius: 35px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: #6610f2;
 }/*# sourceMappingURL=main.css.map */
